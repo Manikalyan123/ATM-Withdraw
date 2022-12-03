@@ -1,0 +1,78 @@
+/* Write your CSS here */
+
+.Cont {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d4d2db;
+}
+
+.display {
+  height: 60vh;
+  width: 30vw;
+  text-align: left;
+  background-color: #150b3e;
+  border-radius: 10px;
+  padding: 30px;
+}
+* {
+  font-family: 'Roboto';
+}
+
+.balance-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+  align-items: left;
+}
+
+.name-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
+  margin-top: 10px;
+  align-items: left;
+}
+
+.circle-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  text-align: center;
+  background-color: #c7d2fe;
+  border-radius: 60px;
+  height: 65px;
+  width: 65px;
+  padding-top: 1px;
+}
+.name {
+  color: #d4d2db;
+  font-size: 25px;
+}
+
+.balance-box {
+  display: flex;
+  flex-direction: column;
+  max-height: 30px;
+}
+.in-rupee {
+  font-size: 15px;
+  color: #d4d2db;
+  margin-top: 0px;
+}
+
+.blue-heading {
+  color: #78728b;
+  font-size: 25px;
+}
+.button-cont {
+  display: flex;
+  flex-direction: row;
+}
