@@ -12,7 +12,7 @@
 
 .display {
   height: 60vh;
-  width: 30vw;
+  width: 500px;
   text-align: left;
   background-color: #150b3e;
   border-radius: 10px;
@@ -75,4 +75,10 @@
 .button-cont {
   display: flex;
   flex-direction: row;
+}
+.unOrderedList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }

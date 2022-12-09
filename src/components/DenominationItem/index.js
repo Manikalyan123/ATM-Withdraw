@@ -3,17 +3,19 @@
 import './index.css'
 
 const Withdraw = props => {
-  const {denomination, substractValue} = props
+  const {denomination, substract} = props
   const {value} = denomination
 
-  const substract = () => {
-    substractValue(value)
+  const substracts = () => {
+    substract(value)
   }
 
   return (
-    <button onClick={substract} className="button" type="button">
-      {denomination.value}
-    </button>
+    <li className="listItem">
+      <button onClick={substracts} className="button" type="button">
+        {denomination.value}
+      </button>
+    </li>
   )
 }
 

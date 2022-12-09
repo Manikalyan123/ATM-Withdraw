@@ -33,15 +33,17 @@ class CashWithdrawal extends Component {
               <p className="in-rupee">in rupees</p>
             </div>
           </div>
-          <h1 className="name">Withdraw</h1>
-          <p className="blue-heading">CHOOSE SUM IN RUPEES</p>
+          <p className="name">Withdraw</p>
+          <p className="blue-heading">CHOOSE SUM (IN RUPEES)</p>
 
           {denominationsList.map(each => (
-            <Withdraw
-              denomination={each}
-              key={each.id}
-              substract={this.substractValue}
-            />
+            <ul className="unOrderedList">
+              <Withdraw
+                denomination={each}
+                key={each.id}
+                substract={this.substractValue}
+              />
+            </ul>
           ))}
         </div>
       </div>
